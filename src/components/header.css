@@ -1,0 +1,35 @@
+/* src/components/Header.css */
+.header {
+    background-color: #002e1c;
+    padding:0px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .quote-btn {
+    background-color: #39d98a;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
